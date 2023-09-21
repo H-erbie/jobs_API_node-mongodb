@@ -53,7 +53,6 @@ const updateJob = asyncHandler(async (req, res) => {
   res.status(StatusCodes.OK).json({ job });
 });
 
-//upload resume from a file oknown dunkno 
 const deleteJob = asyncHandler(async (req, res) => {
     const {
         user: { userId },
